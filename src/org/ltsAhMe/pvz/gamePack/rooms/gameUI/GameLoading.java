@@ -19,7 +19,7 @@ import java.awt.*;
 import static org.lwjgl.opengl.GL11.*;
 
 public class GameLoading extends BaseRoom {
-    Texture backRound  = new Texture("images/titlescreen_new.jpg");
+    Texture backRound  = new Texture("images/titlescreen.jpg");
     Texture loadBarDirt = new Texture("images/LoadBar_dirt.png");
 
     Texture loadBarGrass = new Texture("images/LoadBar_grass.png");

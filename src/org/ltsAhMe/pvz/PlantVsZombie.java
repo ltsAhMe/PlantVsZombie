@@ -16,7 +16,7 @@ import javax.swing.*;
 
 public class PlantVsZombie {
 
-    public static String gameResDir = "C:/Users/ltsAhMe/Desktop/zombie/PVZres/";
+    public static String gameResDir = "C:/Users/ltsAhMe/Desktop/PvZ_Toolkit_v1.20.3/extract_1706608964/";
 
     public static String Title = "PlantVsZombie";
     public static String version = "?";

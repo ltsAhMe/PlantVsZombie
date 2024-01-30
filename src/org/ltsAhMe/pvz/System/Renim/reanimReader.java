@@ -29,8 +29,9 @@ public class reanimReader {
             glScalef(high,high,1);
             if (tracks[track].img != null && !tracks[track].isHidden){
                 track thet = tracks[track];
-                glTranslatef(thet.x,-thet.y,0);
+                glTranslatef((float) (thet.x/1.3), (float) (-thet.y/1.3),0);
                 glRotatef( -thet.kx,0,0,1);
+                glRotatef( -thet.ky,0,0,1);
                 glScalef(thet.sx, thet.sy,1);
                 BaseFunc.DrawBlock(new Texture(thet.img),new Vector2f(-(thet.img.getWidth()/2),thet.img.getHeight()/2),new Vector2f(thet.img.getWidth()/2,thet.img.getHeight()/2),new Vector2f(thet.img.getWidth()/2,-(thet.img.getHeight()/2)),new Vector2f(-(thet.img.getWidth()/2),-(thet.img.getHeight()/2)));
             }
